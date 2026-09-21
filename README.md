@@ -4,7 +4,7 @@ A simple "Would You Rather" web game featuring dilemmas pulled from everyday
 Filipino life — jeepneys vs. Grab, isaw vs. betamax, sinigang na maasim vs.
 matabang, and more.
 
-**[Live demo →](#)** *(add your deployed link here once you host it)*
+**[Live demo →](https://alin-ang-pipiliin-mo.vercel.app/)** 
 
 ![screenshot placeholder](screenshot.png)
 
