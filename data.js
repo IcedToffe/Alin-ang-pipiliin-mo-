@@ -1,14 +1,3 @@
-// data.js
-//
-// DILEMMAS = the main 30 questions.
-// BONUS_DILEMMAS = secret extra questions. There's a small chance one of
-// these sneaks into a playthrough (see script.js) — small easter egg,
-// not something a basic tutorial version would have.
-//
-// reactionsLeft / reactionsRight = a few lines each, picked at random
-// when that side gets clicked. Kept messy on purpose — real reactions
-// don't all sound the same length or tone.
-
 const DILEMMAS = [
   {
     left: "Sumakay sa jeepney na sardinas",
@@ -192,8 +181,7 @@ const DILEMMAS = [
   },
 ];
 
-// Secret bonus questions. Only a chance to appear once per playthrough —
-// see startGame() in script.js for the logic.
+// Secret bonus questions. Only a chance to appear once per playthrough.
 const BONUS_DILEMMAS = [
   {
     left: "Mag-refresh ng grades portal kada 5 minuto",
@@ -211,7 +199,7 @@ const BONUS_DILEMMAS = [
   {
     left: "Sasali sa debate ni Charlie Kirkk",
     right: "Rene Baterbonia na nag pa swimming lessons sa TikTok",
-    reactionsLeft: ["We aReee ChaRliee kirkk, we carry the flameeee", "Debate master ka na pala"],
+    reactionsLeft: ["We aReee ChaRliee kirk, we carry the flameeee", "Debate master ka na pala"],
     reactionsRight: ["MaaaMAAAaaaaaaaaaaaaaaaaaaaaaaaaa", "The og Butuin ng mindanao"]
   },
 ];
