@@ -6,7 +6,7 @@ matabang, and more.
 
 **[Live demo →](https://alin-ang-pipiliin-mo.vercel.app/)** 
 
-![screenshot placeholder](screenshot.png)
+![screenshot placeholder](alin_ang_pipilin_mo.png)
 
 ## Why I built this
 
