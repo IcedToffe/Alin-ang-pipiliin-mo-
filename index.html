@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Would you rather? Pinoy Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Alin Ang Pipiliin Mo?</h1>
+    <p class="tagline">Walang tama o mali. Piliin mo lang kung kaya mo.</p>
+  </header>
+
+  <main>
+    <div class="progress" id="progress">Tanong 1 ng 18</div>
+
+    <section class="duel" id="duel">
+      <button class="choice choice--left" id="choiceLeft" aria-label="Piliin ang unang pagpipilian">
+        <span class="choice-text" id="leftText">Loading...</span>
+      </button>
+
+      <div class="vs-badge">VS</div>
+
+      <button class="choice choice--right" id="choiceRight" aria-label="Piliin ang ikalawang pagpipilian">
+        <span class="choice-text" id="rightText">Loading...</span>
+      </button>
+    </section>
+
+    <p class="reaction" id="reaction" aria-live="polite"></p>
+
+    <button class="next-btn" id="nextBtn" hidden>Susunod na tanong</button>
+
+    <div class="finished" id="finished" hidden>
+      <h2>Tapos na!</h2>
+      <p>Nasagutan mo lahat ng <span id="totalCount"></span> na tanong.</p>
+      <button class="next-btn" id="restartBtn">Ulitin mula umpisa</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>I made this as simple porfolio project.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
