@@ -1,6 +1,3 @@
-// script.js
-// Handles: shuffling questions, showing one at a time, reacting to clicks,
-// tracking progress, and restarting once you reach the end.
 
 const leftBtn = document.getElementById("choiceLeft");
 const rightBtn = document.getElementById("choiceRight");
@@ -17,7 +14,6 @@ const restartBtn = document.getElementById("restartBtn");
 let order = [];
 let current = 0;
 
-// Used only as a fallback, in case a dilemma is missing custom reactions.
 const fallbackReactions = [
   "Solid choice!",
   "Ay grabe, ang hirap noh?",
@@ -25,14 +21,12 @@ const fallbackReactions = [
   "Classic Pinoy dilemma yan.",
 ];
 
-// Picks a random line from an array. Falls back to the generic pool
-// if the dilemma doesn't have its own reactions defined.
+
 function pickReaction(pool) {
   const source = (pool && pool.length > 0) ? pool : fallbackReactions;
   return source[Math.floor(Math.random() * source.length)];
 }
 
-// Fisher-Yates shuffle so the question order is different every run.
 function shuffle(array) {
   const copy = [...array];
   for (let i = copy.length - 1; i > 0; i--) {
@@ -46,8 +40,7 @@ function startGame() {
   order = shuffle(DILEMMAS);
   current = 0;
 
-  // Small easter egg: 25% chance a secret bonus question gets slipped
-  // into this playthrough, at a random spot in the order.
+
   if (Math.random() < 0.25) {
     const bonus = BONUS_DILEMMAS[Math.floor(Math.random() * BONUS_DILEMMAS.length)];
     const spot = Math.floor(Math.random() * (order.length + 1));
