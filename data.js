@@ -197,7 +197,7 @@ const BONUS_DILEMMAS = [
 
   },
   {
-    left: "Sasali sa debate ni Charlie Kirkk",
+    left: "Sasali sa debate ni Charlie Kirk",
     right: "Rene Baterbonia na nag pa swimming lessons sa TikTok",
     reactionsLeft: ["We aReee ChaRliee kirk, we carry the flameeee", "Debate master ka na pala"],
     reactionsRight: ["MaaaMAAAaaaaaaaaaaaaaaaaaaaaaaaaa", "The og Butuin ng mindanao"]
