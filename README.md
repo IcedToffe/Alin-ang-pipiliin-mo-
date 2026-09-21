@@ -1,7 +1,7 @@
 # Alin Ang Pipiliin Mo? (Would You Rather — Pinoy Edition)
 
 A simple "Would You Rather" web game featuring dilemmas pulled from everyday
-Filipino life — jeepneys vs. Grab, isaw vs. betamax, sinigang na maasim vs.
+Filipino life like jeepneys vs. Grab, isaw vs. betamax, sinigang na maasim vs.
 matabang, and more.
 
 **[Live demo →](https://alin-ang-pipiliin-mo.vercel.app/)** 
@@ -10,7 +10,7 @@ matabang, and more.
 
 ## Why I built this
 
-I wanted a beginner project that wasn't just another generic to-do list —
+I wanted a beginner project that wasn't just another generic to-do list but
 something with a bit of personality that I could actually explain and enjoy
 building. This project helped me practice DOM manipulation, event handling,
 and basic array logic (shuffling, tracking progress) in plain JavaScript.
@@ -44,4 +44,4 @@ and basic array logic (shuffling, tracking progress) in plain JavaScript.
 
 ## Author
 
-Built by Dharel Khin Melegrito — 4th year IT student.
+Built by Dharel Khin Melegrito. You can call me milo ^_^
